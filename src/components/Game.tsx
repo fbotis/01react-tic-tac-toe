@@ -8,7 +8,10 @@ import { GameTable } from "./GameTable";
 
 export const X = "x";
 export const O = "0";
-
+/**
+ * Renderes the game and starts it automatically when the component gets redered
+ * 
+ */
 export const Game: React.FC = () => {
   const { startGame } = useActions();
 

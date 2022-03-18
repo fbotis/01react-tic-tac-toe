@@ -8,6 +8,11 @@ interface GameProps {
   value: string;
 }
 
+/**
+ * Renders a specific cell
+ *
+ */
+
 export const GameCell: React.FC<GameProps> = ({ row, col, value }) => {
   const state = {
     play: false,
