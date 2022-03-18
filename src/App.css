@@ -1,0 +1,40 @@
+table,
+th,
+td > div {
+  cursor: pointer;
+}
+
+div.box {
+  background-color: lightgrey;
+  margin: auto;
+  width: 50%;
+  padding: 60px;
+}
+
+@keyframes mymove {
+  from {
+    background-color: lightgrey
+  }
+  to {
+    background-color: lightskyblue;
+  }
+}
+
+div.winner {
+  animation: mymove 0.8s infinite;
+}
+div.box:hover {
+  background-color: rgb(83, 153, 83);
+}
+
+div.filled:hover {
+  background-color: rgb(160, 97, 97);
+}
+
+div.winner {
+  background-color: blueviolet;
+}
+
+.turnInfo {
+  align-content: center;
+}
